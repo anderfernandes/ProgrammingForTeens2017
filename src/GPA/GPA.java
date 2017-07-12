@@ -18,7 +18,7 @@ public class GPA {
         } else if (grade>= 60){
             JOptionPane.showMessageDialog(null, "You got an D.");
         } else {
-            JOptionPane.showMessageDialog(null, "You got an F.");
+            JOptionPane.showMessageDialog(null, "You got an F."); 
         }
     }
 }

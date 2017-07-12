@@ -26,7 +26,7 @@ public class GPA {
                     "You got a D. Enjoy summer school, bruh!");
         } else {
             JOptionPane.showMessageDialog(null,
-                    "F stands for FAIL!!!");
+                    "F stands for FAIL!!!"); 
         }
     }
 }

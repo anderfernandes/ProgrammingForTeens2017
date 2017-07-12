@@ -10,7 +10,7 @@ public class LeapYear {
 
         //asks user what year it is
         String input = JOptionPane.showInputDialog(null,
-                "What year is it?",
+                "Enter a year to find out if its a leap year",
                 "Leap Year",
                 JOptionPane.QUESTION_MESSAGE);
         //converts the input to an integer

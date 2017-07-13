@@ -10,7 +10,7 @@ public class LeapYear {
         String input = JOptionPane.showInputDialog(null,
                 "Name a year.");
         int year = Integer.parseInt(input);
-        if (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0){
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)){
             JOptionPane.showMessageDialog(null, "This year is a leap year.");
         }else {
             JOptionPane.showMessageDialog(null, "This year is not a leap year.");

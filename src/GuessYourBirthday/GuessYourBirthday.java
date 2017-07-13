@@ -64,7 +64,7 @@ public class GuessYourBirthday {
             }
             //asks user if the birthday is his/her
             Integer wrongbirthday = JOptionPane.showConfirmDialog(null,
-                    birthday + " Is this your birthday?",
+                    "Your Birthday is on the " + birthday + "th",
                     "I found out your birthday",
                     JOptionPane.YES_NO_OPTION);
             //tells user that this machine is always right
